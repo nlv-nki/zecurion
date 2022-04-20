@@ -1,11 +1,12 @@
-extends layouts/default
+extends layouts/default-min
 include helpers/mixins
 
 block variables
-	- const title = "gulp-pug-starter"
+	- const title = "zecurion"
 
 block content
 	include ../blocks/modules/header/header
+	include ../blocks/modules/content/content
 	include ../blocks/modules/footer/footer
 
 block scripts
