@@ -1,0 +1,30 @@
+.employee {
+	&__fio-box {
+		width: 350px;
+	}
+
+	&__title {
+		font-size: 16px;
+	}
+	&__full-info {
+		padding-left: 22px;
+		border-bottom: 1px solid #E4E4E4;
+		margin-bottom: 30px;
+	}
+	&__anomalies {
+		margin-bottom: 70px;
+	}
+
+	&__anomalies-box {
+		border: 1px solid #EE144E;
+		width: 400px;
+		height: 70px;
+		margin:0 20px;
+		font-size: 12px;
+
+	}
+	&__main-data {
+		height:200px;
+		background-color: #F3F2F2;
+	}
+}
