@@ -1,0 +1,97 @@
+.indicators-box {
+
+	padding: 0 20px;
+	color: #4D4D4D;
+	&__title {
+		font-size:14px;
+	}
+
+	&__table {
+		margin-top: 20px;
+	}
+
+	&__table {
+		th {
+			white-space: nowrap;
+			border: none;
+			font-weight: normal;
+		}
+		th, td {
+			text-align: left;
+		}
+
+		td {
+			position: relative;
+			white-space: nowrap; /* Отменяем перенос текста */
+			overflow: hidden; /* Обрезаем содержимое */
+		//	padding: 5px; /* Поля */
+			text-overflow: ellipsis; /* Многоточие */
+		}
+
+	}
+
+
+	&__table--discipline {
+		margin-top: 2px;
+
+		th {
+			white-space:normal !important;
+			text-align: center !important;
+		}
+
+		th, td {
+			max-width: 85px;
+			text-align: center !important;
+		}
+
+
+
+	}
+
+
+	&__type {
+		padding-left: 15px !important;
+		max-width: 180px;
+	}
+
+
+	&__time {
+		color:#058DC7;
+	}
+
+
+	&__icon::before {
+		content: " ";
+		width: 10px;
+		height: 10px;
+		position:absolute;
+		left: 0;
+		bottom: 11px;
+		background-color:transparent;
+	}
+
+	&__icon--wellow::before{
+		background-color:#F8D77F !important;
+	}
+
+	&__icon--green::before{
+		background-color:#A6C8B3 !important;
+	}
+
+
+	&__icon--red::before{
+		background-color:#F689A8!important;
+	}
+
+
+
+}
+
+.indicators-box__container {
+	display:flex;
+	justify-content: space-between;
+	margin: 23px 0;
+}
+
+
+
