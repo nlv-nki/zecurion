@@ -1,59 +1,119 @@
 .employee__panel
-	.employee__full-info.d-flex.align-items-end
-		.employee__fio-box.d-flex
-			.employee__photo
-				img(src="img/photo.png")
-			.employee__fio-box-info
-				.employee__full-name Виктория Беляева
-				.employee__position Менеджер
-		.scope-box
-			.scope-box__text Уровень риска
-			.scope-box__scope 157
-		.scope-box
-			.scope-box__text Продуктивность
-			.scope-box__scope 157
-		.scope-box
-			.scope-box__text Индекс активности
-			.scope-box__scope 157
-		.scope-box.d-flex.align-items-center
-			.scope-box__icon
-				img(src="img/svg/checkbox.svg")
-			.scope-box__icon
-				img(src="img/svg/cam.svg")
-			.scope-box__icon
-				img(src="img/svg/desktop.svg")
-			.scope-box__icon
-				img(src="img/svg/lines.svg")
-	.employee__anomalies
-		h2.employee__title Аномалии
-		.d-flex.mt-3
-			.employee__anomalies-box Использование 2 месснджеров
-			.employee__anomalies-box Много устройств
-			.employee__anomalies-box Редко на связи
-	.employee__main-indicators
-		h2.employee__title Основные показатели
-		.employee__main-data.mt-3
-		.indicators-box
-			h3.indicators-box__title
-			table.table
-				thead
-					tr
-						th Категории приложений
-						th Время
-						th %
-						th Рост
-				tr
-					td Месснджеры
-					td 20:55
-					td 18%
-					td +8%
-				tr
-					td Браузеры
-					td 15:11
-					td 6
-					td +7%
-				tr
-					td Игры
-					td 13:11
-					td 7
-					td +3%
+	.row
+		.col-12
+			.employee__full-info.d-flex.align-items-end
+				.employee__fio-box.d-flex
+					.employee__photo
+						img(src="img/photo.png")
+					.employee__fio-box-info
+						.employee__full-name Виктория Беляева
+						.employee__position Менеджер
+				.scope-box
+					.scope-box__text Уровень риска
+					.scope-box__scope 157
+				.scope-box
+					.scope-box__text Продуктивность
+					.scope-box__scope 157
+				.scope-box
+					.scope-box__text Индекс активности
+					.scope-box__scope 157
+				.scope-box.d-flex.align-items-center
+					.scope-box__icon
+						img(src="img/svg/checkbox.svg")
+					.scope-box__icon
+						img(src="img/svg/cam.svg")
+					.scope-box__icon
+						img(src="img/svg/desktop.svg")
+					.scope-box__icon
+						img(src="img/svg/lines.svg")
+	.row
+		.col-12
+			.employee__anomalies
+				h2.employee__title Аномалии
+				.d-flex.mt-3
+					.employee__anomalies-box Использование 2 месснджеров
+					.employee__anomalies-box Много устройств
+					.employee__anomalies-box Редко на связи
+	.row
+		.col-12
+			.employee__main-indicators
+				h2.employee__title Основные показатели
+				.employee__main-data.my-3
+	.row
+		.indicators-box__container.d-flex.flex-column.flex-xxl-row.justify-content-between
+			.col-xl-12.col-xxl-4
+				.indicators-box
+					h3.indicators-box__title ПРИЛОЖЕНИЯ И КАТЕГОРИИ
+					table.table.indicators-box__table
+						thead
+							tr
+								th Категории приложений
+								th Время
+								th %
+								th Рост
+						tr
+							td.indicators-box__type.indicators-box__icon.indicators-box__icon--wellow  Месснджеры
+							td.indicators-box__time 20:55
+							td 18%
+							td +8%
+						tr
+							td.indicators-box__type.indicators-box__icon.indicators-box__icon--wellow  Браузеры
+							td 15:11
+							td 6
+							td +7%
+						tr
+							td.indicators-box__type.indicators-box__icon.indicators-box__icon--red  Игры
+							td 13:11
+							td 7
+							td +3%
+			.col-xl-12.col-xxl-4
+				.indicators-box
+					h3.indicators-box__title САЙТЫ И КАТЕГОРИИ
+					table.table.indicators-box__table
+						thead
+							tr
+								th Категории сайтов
+								th Время
+								th %
+								th Рост
+						tr
+							td.indicators-box__type.indicators-box__icon.indicators-box__icon--wellow  Поисковики
+							td.indicators-box__time 20:55
+							td 18%
+							td +8%
+						tr
+							td.indicators-box__type.indicators-box__icon.indicators-box__icon--green Новостные порталы
+							td.indicators-box__time  15:11
+							td 6
+							td +7%
+						tr
+							td.indicators-box__type.indicators-box__icon.indicators-box__icon--green Сайты с неопределенным наполнением
+							td.indicators-box__time 13:11
+							td 7
+							td +3%
+			.col-xl-12.col-xxl-4
+				.indicators-box
+					h3.indicators-box__title ДИСЦИПЛИНА
+					table.table.indicators-box__table.indicators-box__table--discipline
+						thead
+							tr
+								th Дата
+								th Приход на работу
+								th Уход с работы
+								th Время на работе
+						tr
+							td 29.02
+							td 20:55
+							td 18%
+							td +8%
+						tr
+							td 28.02
+							td 15:11
+							td 6
+							td +7%
+						tr
+							td 25.02
+							td 13:11
+							td 7
+							td +3%
+
