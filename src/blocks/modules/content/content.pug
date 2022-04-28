@@ -1,27 +1,7 @@
 main
-	.container
+	.container-md
 		.row
-			.col-2
-				input(type="text")
-				.row
-					.employees__box
-						.employee__short-tab
-							.employee__img
-							.employee__name Анна Иванова
-							.employee__position Менеджер
-							.employee__status На увольнении
-							.employee__scope 12
-				.row
-					.employees__box
-						.employee__short-tab
-							.employee__img
-							.employee__name Виктория Беляева
-							.employee__position Менеджер
-							.employee__status В отпуске
-							.employee__scope 247
-			.col-10.pt-3
+			.col-12.col-xl-2.d-none.d-sm-none.d-md-block
+				include ../../components/employees/employees
+			.col-12.col-lg-10.pt-3
 				include ../../components/employee/employee
-
-
-
-
