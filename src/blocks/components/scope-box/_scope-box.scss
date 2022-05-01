@@ -1,9 +1,56 @@
 .scope-box {
-	width: 268px;
+	width: 2000px;
 	height: 40px;
-	border-right: 1px solid #C6C6C6;
-	margin-right: 40px;
+
 	&__icon {
 		margin: 0 10px;
 	}
+
+	&__text {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	&__scope {
+		font-size: 18px;
+		font-weight: bold;
+
+	}
+
+	&__dynamics {
+		font-size: 11px;
+		font-weight: normal;
+		margin-left: 8px;
+	}
+
+	&__dynamics-sign {
+		position: relative;
+
+		i {
+			position: absolute;
+			right: -1px;
+		}
+	}
+
+	&__dynamics-text {
+		margin-left: 3px;
+	}
+
+	&__dynamics--minus {
+		color: #EE144E;
+	}
+
+	&__dynamics--plus {
+		color: #00983E;
+	}
+}
+
+.scope-box__container {
+	display: flex;
+
+}
+
+.scope-box:nth-child(n+2) {
+	border-left: 1px solid #C6C6C6;
+	padding-left: 40px;
 }
