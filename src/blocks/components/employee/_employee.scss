@@ -1,7 +1,9 @@
 .employee {
 	&__fio-box {
-		width: 350px;
+		// width: 350px;
 	}
+
+
 
 	&__title {
 		font-size: 16px;
@@ -11,7 +13,35 @@
 		border-bottom: 1px solid #E4E4E4;
 		margin-bottom: 30px;
 		padding-bottom: 40px;
+
 	}
+
+	&__full-name {
+		font-size:24px;
+		position: relative;
+	}
+
+	&__full-name::after {
+		position: absolute;
+		content: "";
+		width: 16px;
+		height: 11px;
+		background-image: url("../../img/svg/eye.svg");
+		display: block;
+		right: -25px;
+		top: 5px;
+	}
+
+
+	&__fio-box-info {
+		margin-left: 16px;
+	}
+
+	&__position {
+		font-size: 12px;
+	}
+
+
 	&__anomalies {
 		margin-bottom: 70px;
 	}
