@@ -1,10 +1,16 @@
 .header {
 
+	&__top {
+		padding-left: 0;
+	}
+
     &__bottom {
         background-color: #F3F2ED;
         height: 50px;
         padding-top: 3px;
     }
+
+
 
 
     &__login-text {

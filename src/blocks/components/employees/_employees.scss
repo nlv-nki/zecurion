@@ -1,0 +1,81 @@
+.employees {
+	min-width: 340px;
+	height: 88px;
+
+	&__tab {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #E7E6E1;
+		height: 88px;
+	}
+
+	&__tab--active {
+		background-color: #FFF;
+	}
+
+	&__tab--active {
+		.employees__name::after {
+			position: absolute;
+			content: "";
+			width: 16px;
+			height: 11px;
+			background-image: url("../../img/svg/eye.svg");
+			display: block;
+			top: 1px;
+			right: -20px;
+		}
+	}
+
+	&__tab-info {
+		display: flex;
+		flex-direction: column;
+		margin-right: auto;
+		margin-left: 12px;
+		align-items: flex-start;
+	}
+
+	&__tab-info--dismissal {
+		opacity: 0.3;
+
+		.employees__status {
+			background-color: #D2154F;
+			color: #FFF;
+		}
+
+	}
+
+	&__name {
+		font-size: 12px;
+		font-weight: bold;
+		position: relative;
+	}
+
+	&__position {
+		font-size: 10px
+	}
+
+	&__scope {
+		font-size: 18px;
+		color: #A2A2A2;
+	}
+
+	&__scope--red {
+		color: #EE144E;
+	}
+
+	&__status {
+		margin-top: 5px;
+		font-size: 9px;
+		background-color: #2DD0C6;
+		padding: 2px 5px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__status--none {
+		display: none;
+	}
+
+}

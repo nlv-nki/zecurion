@@ -1,17 +1,29 @@
-input(type="text")
 .row
-	.employees__box
-		.employees__short-tab
-			.employees__img
-			.employees__name Анна Иванова
-			.employees__position Менеджер
-			.employees__status На увольнении
-			.employees__scope 12
+	input(type="text", placeholder="Быстрый поиск").quick-search
 .row
-	.employees__box
-		.employees__short-tab
+	.employees__tab.py-2
 			.employees__img
-			.employees__name Виктория Беляева
-			.employees__position Менеджер
-			.employees__status В отпуске
-			.employees__scope 247
+				img(src="img/manager1.png")
+			.employees__tab-info.employees__tab-info--dismissal
+				.employees__name Анна Иванова
+				.employees__position Менеджер, Отдел продаж
+				.employees__status
+					span.employees__status-text На увольнении
+			.employees__scope.employees__scope 12
+	.employees__tab.employees__tab--active.py-2
+			.employees__img
+				img(src="img/photo.png")
+			.employees__tab-info
+				.employees__name Виктория Беляева
+				.employees__position Менеджер, Отдел продаж
+				.employees__status
+					span.employees__status-text В отпуске
+			.employees__scope.employees__scope--red 247
+	.employees__tab.py-2
+			.employees__img
+				img(src="img/manager2.png")
+			.employees__tab-info
+				.employees__name Виктор Сурков
+				.employees__position Менеджер, Отдел продаж
+				.employees__status.employees__status--none
+			.employees__scope 0
