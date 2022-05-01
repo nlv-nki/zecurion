@@ -1,0 +1,21 @@
+.quick-search {
+	border: none;
+	outline: none;
+	height: 22px;
+	padding-left: 30px;
+	background-image: url('../img/svg/search.svg');
+	background-position: 15px 5px;
+	background-repeat: no-repeat;
+}
+
+.quick-search::before {
+	content: "";
+	width: 12px;
+	height: 12px;
+	display:block;
+	position: absolute;
+	background-image: url('../img/svg/search.svg');
+
+}
+
+
