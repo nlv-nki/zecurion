@@ -3453,6 +3453,13 @@ bem-tools-create@bem-tools/bem-tools-create:
   languageName: node
   linkType: hard
 
+"bootstrap-icons@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "bootstrap-icons@npm:1.8.1"
+  checksum: 2151c0312d74dced74abc6ac14e69640e1af08e85224868bf2c0161b73ec9e0c1fda03e8585069c4164e2fb9633db881f8c2d812f11cfdbaf1139849c0d30e6a
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.6, brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -7593,6 +7600,7 @@ bem-tools-create@bem-tools/bem-tools-create:
     babel-loader: ^8.2.3
     bem-tools-core: bem-tools/bem-tools-core
     bem-tools-create: bem-tools/bem-tools-create
+    bootstrap-icons: ^1.8.1
     browser-sync: ^2.27.7
     del: ^6.0.0
     dev: ^0.1.3

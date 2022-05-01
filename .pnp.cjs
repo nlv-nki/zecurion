@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:6358c239be09387813fb657114d5988e250e16161599907674e532b224c09ae6b1f0f32150c0d2f1aaf39f8d8f4de743181c6ed5a64961101404e40d69363bfa#npm:8.2.4"],\
             ["bem-tools-core", "https://github.com/bem-tools/bem-tools-core.git#commit=9a5c91b198a7ce1f2a6b6e64c505aefead27fc8f"],\
             ["bem-tools-create", "https://github.com/bem-tools/bem-tools-create.git#commit=bee9b839b6c89b956464be0cf8057d40f332f832"],\
+            ["bootstrap-icons", "npm:1.8.1"],\
             ["browser-sync", "npm:2.27.9"],\
             ["del", "npm:6.0.0"],\
             ["dev", "npm:0.1.3"],\
@@ -5103,6 +5104,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["bootstrap-icons", [\
+        ["npm:1.8.1", {\
+          "packageLocation": "./.yarn/cache/bootstrap-icons-npm-1.8.1-ac144533a8-2151c0312d.zip/node_modules/bootstrap-icons/",\
+          "packageDependencies": [\
+            ["bootstrap-icons", "npm:1.8.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["brace-expansion", [\
         ["npm:1.1.11", {\
           "packageLocation": "./.yarn/cache/brace-expansion-npm-1.1.11-fb95eb05ad-faf34a7bb0.zip/node_modules/brace-expansion/",\
@@ -9660,6 +9670,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:6358c239be09387813fb657114d5988e250e16161599907674e532b224c09ae6b1f0f32150c0d2f1aaf39f8d8f4de743181c6ed5a64961101404e40d69363bfa#npm:8.2.4"],\
             ["bem-tools-core", "https://github.com/bem-tools/bem-tools-core.git#commit=9a5c91b198a7ce1f2a6b6e64c505aefead27fc8f"],\
             ["bem-tools-create", "https://github.com/bem-tools/bem-tools-create.git#commit=bee9b839b6c89b956464be0cf8057d40f332f832"],\
+            ["bootstrap-icons", "npm:1.8.1"],\
             ["browser-sync", "npm:2.27.9"],\
             ["del", "npm:6.0.0"],\
             ["dev", "npm:0.1.3"],\
