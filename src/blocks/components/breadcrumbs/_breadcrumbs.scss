@@ -4,5 +4,19 @@
     margin-top: 10px;
     &__item {
         margin-right: 5px;
+		position: relative;
+		margin-right: 13px;
     }
+	&__item-link {
+		text-emphasis: none;
+	}
+
+	&__item:not(:last-child):after {
+		content: ">";
+		font-size: 12px;
+		display: block;
+		position: absolute;
+		top: 3px;
+		right: -10px;
+	}
 }
