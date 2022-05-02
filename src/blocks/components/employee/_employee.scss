@@ -48,17 +48,31 @@
 
 	&__anomalies-box {
 		border: 1px solid #EE144E;
-		width: 400px;
+		//width: 400px;
 		height: 70px;
-		margin:0 20px;
+
 		font-size: 13px;
 		display:flex;
 		justify-content: center;
 		align-items: center;
-
 	}
+
+	&__anomalies-box:not(:last-child){
+		margin-right: 5px;
+	}
+
 	&__main-data {
 		height:200px;
 		background-color: #F3F2F2;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.employee {
+		&__anomalies-box {
+			width: 100%;
+			flex-direction: column;
+		}
 	}
 }
